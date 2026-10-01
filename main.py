@@ -6,3 +6,4 @@ with open("morcata.txt", encoding="utf-8") as f:
             print(f"{typ} morčete jménem: {j}.")
             print(f"- váží: {h} g")
             print(f"- datum narození: {d}")
+            print(f"- cena se slevou 10 %: {float(c)*0.9:.1f} Kč\n")
